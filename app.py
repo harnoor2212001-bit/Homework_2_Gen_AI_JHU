@@ -19,6 +19,8 @@ Guidelines:
 - Keep summaries to 2-3 sentences.
 - Maintain numerical accuracy.
 - Tone: Professional, objective, and auditor-focused.
+- Format the output as follows: Start with a bold header 'EXECUTIVE SUMMARY' followed by a single-sentence definition and one bullet point titled 'Potential Impact'.
+- If a mentioned metric is more than 5% higher than market average, add a bold 'AUDIT ALERT' at the bottom suggesting a deeper dive into the underlying asset eligibility criteria.
 """
 
 def summarize_text(input_text):
@@ -45,7 +47,7 @@ def summarize_text(input_text):
 
 if __name__ == "__main__":
     # Test case from your eval_set.md
-    sample_input = "Cash flows may be subject to dilution risk in instances where obligors utilize corporate-issued gift cards to satisfy outstanding balances."
+    sample_input = "Characteristics of the included loans contain 6% higher dilution rates than market average"
     
     print("--- ABS Technical Input ---")
     print(sample_input)
