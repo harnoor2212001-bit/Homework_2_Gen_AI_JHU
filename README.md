@@ -9,3 +9,5 @@ System Input: A technical paragraph or "Risk Factor" section from a prospectus (
 System Output: A concise, 2-3 sentence "Plain English" summary that highlights the core meaning and potential impact.
 
 Value: Automating the first pass of these summaries saves significant time for the audit and legal teams and reduces the risk of misinterpretation by stakeholders who are not subject matter experts.
+
+Video Link: https://youtu.be/1w3MgI9skJI
